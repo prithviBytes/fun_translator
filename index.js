@@ -98,7 +98,7 @@ function changeLanguage(language) {
         break;
 
         case 'pirates':{
-            image.setAttribute("src","./Captain-Jack-Sparrow.png")
+            image.setAttribute("src","./pirate.png")
             removeClass();
             api = apis[3];
             body.classList.add("pirate");
