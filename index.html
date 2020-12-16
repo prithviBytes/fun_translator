@@ -4,41 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
     <script defer src="./index.js"></script>
     <title>Translator app</title>
 </head>
 <body id="body" class="normal">
-    <header id="header" class="section color-normal">
+
+    <header id="header" class="color-normal">
         <h1 class="is-size-2" style="text-align: center;">
             FUN TRANSLATOR
         </h1>
     </header>
-    <section id="guide" class="section has-text-cenetered" style="text-align: center;">
-        <h4 class="is-size-3">Select any Language</h4>
+    <section id="guide" style="text-align: center;">
+        <h4>Select any Language</h4>
     </section>
-    <section class="section language-selector">
-        <div class="container has-text-cenetered" style="text-align: center;">
-            <div class="columns">
-                <div class="column">
+    <section class="language-selector">
+        <div style="text-align: center;">
+            <div class="row">
+                <div class="col-1-of-4">
                     <span class="languages">
                         <input onclick="changeLanguage('dothraki')" type="radio" id="dothraki" name="language" value="dothraki">
                         <label for="dothraki">DOTHRAKI</label>
                     </span>
                 </div>
-                <div class="column">
+                <div class="col-1-of-4">
                     <span class="languages">
                         <input onclick="changeLanguage('shakesphere')" type="radio" id="shake" name="language" value="Shake">
                         <label for="shake">SHAKESPEARE</label>
                     </span>
                 </div>
-                <div class="column">
+                <div class="col-1-of-4">
                     <span class="languages">
                         <input onclick="changeLanguage('yoda')" type="radio" id="yoda" name="language" value="yoda">
                         <label for="yoda">YODA</label>
                     </span>
                 </div>
-                <div class="column">
+                <div class="col-1-of-4">
                     <span class="languages">
                         <input onclick="changeLanguage('pirates')" type="radio" id="pirate" name="language" value="pirate">
                         <label for="pirate">PIRATES</label>
@@ -60,14 +61,14 @@
     </section>
     <section id="content" class="section content-hidden">
         <div class="container">
-            <div class="columns">
-                <div class="column" style="text-align: center;">
+            <div class="row">
+                <div class="col-1-of-3" style="text-align: center;">
                     <textarea class="textarea-normal" id="textarea" placeholder="Enter your text Here" rows="15" cols="70%"></textarea>
                 </div>
-                <div class="column is-3" style="text-align: center;">
+                <div class="col-1-of-3" style="text-align: center;">
                     <button id="btn" class="btn btn-normal">Translate Text</button>
                 </div>
-                <div class="column">
+                <div class="col-1-of-3">
                     <div id="output" class="output textarea-normal">
                         Translated Text Will Appear Here!!!
                     </div>
