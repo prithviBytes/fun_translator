@@ -4,8 +4,12 @@
 A Fun Traslation App that uses APIs from <a href="https://funtranslations.com/"> Fun Translations </a>.
 This is a single page application that uses Javascript to render different output.
 
-## Live Version
-<a href="https://funtranslatorr.netlify.app/">fun_translator</a>
+## Check It Out
+Click on the link to try it out : <a href="https://funtranslatorr.netlify.app/">fun_translator</a>
+
+## Demo
+
+![DEMO GIF](https://github.com/prithviBytes/fun_translator/blob/master/Fun%20translator.gif?raw=true)
 
 ## Features
 
